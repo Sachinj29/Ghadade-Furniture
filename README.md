@@ -1,17 +1,17 @@
 # Ghadade-Furniture
 Web Based Application Using PHP.
 
-# General Information
+## General Information
 • This is PHP Project.
 • User-Friendly e-commerce website of Furniture Store.
 • Helps customers to buy furniture online.
 • It saves customers data for authentication.
 
-# Setup
+### Setup
 • XAMPP Server
 • Any Browser
 
-# Run Locally
+### Run Locally
 • Paste the project in "htdocs" folder where XAMPP is installed.
 • Open the XAMPP control panel and start Apache and MySQL.
 • Open the PHPMyAdmin and create a database "furniture_store" and execute following query :
@@ -29,7 +29,7 @@ CREATE TABLE user (
 nevigate to project path from htdocs in the address bar.
 
 
-# Technologies Used 
+#### Technologies Used 
 • HTML/CSS
 • PHP
 • MySQL
