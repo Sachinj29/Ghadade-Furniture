@@ -35,5 +35,4 @@ nevigate to project path from htdocs in the address bar.
 • MySQL
 • Bootstrap
 
-
     
