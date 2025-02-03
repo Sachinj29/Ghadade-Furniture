@@ -13,7 +13,7 @@
 - **Online Shopping**: Browse and purchase furniture directly from the website.
 
 ## Technologies Used
-- **Frontend**: HTML, CSS, Bootstrap
+- **Frontend**: HTML, CSS, Bootstrap, JavaScript
 - **Backend**: PHP
 - **Database**: MySQL
 
