@@ -1,43 +1,89 @@
+# 🪑 Ghadade-Furniture
 
+> A web-based **e-commerce furniture store** that allows users to browse, register, and purchase furniture online — designed with a focus on simplicity, usability, and secure customer management.
 
 ---
 
-# Ghadade-Furniture
+## 📌 Overview
 
-## Overview
-**Ghadade-Furniture** is a web-based e-commerce application designed to create a user-friendly furniture store. It allows customers to browse and purchase furniture online, offering a seamless shopping experience. The application also securely stores customer data for authentication purposes.
+**Ghadade-Furniture** is a user-friendly furniture store web application developed using **PHP**, **HTML/CSS**, and **MySQL**. Customers can explore products, register/login securely, and complete purchases in a seamless shopping experience.
 
-## Features
-- **User-Friendly Interface**: Easy navigation and intuitive design.
-- **Secure Authentication**: Stores customer data securely for login.
-- **Online Shopping**: Browse and purchase furniture directly from the website.
+---
 
-## Technologies Used
-- **Frontend**: HTML, CSS, Bootstrap, JavaScript
-- **Backend**: PHP
-- **Database**: MySQL
+## ✨ Features
 
-## Setup Instructions
+- 🖥️ **User-Friendly Interface** — Clean layout with intuitive navigation  
+- 🔐 **Secure Authentication** — User login and registration with password protection  
+- 🛒 **Online Shopping** — Browse, view details, and purchase furniture items  
 
-### Prerequisites
-- **XAMPP Server** (for local server environment)
-- Any web browser
+---
 
-### Running Locally
-1. Clone or download the project and place it in the `htdocs` folder where XAMPP is installed.
-2. Open the XAMPP control panel and start **Apache** and **MySQL**.
-3. Open **PHPMyAdmin** and create a database named `furniture_store`.
-4. Execute the following SQL query to create the `user` table:
+## 🧰 Technologies Used
 
-    ```sql
-    CREATE TABLE user (
-        email VARCHAR(20) PRIMARY KEY, 
-        name VARCHAR(20), 
-        password VARCHAR(20), 
-        phoneno INT, 
-        address VARCHAR(50)
-    );
-    ```
+| Layer      | Technology                   |
+|------------|------------------------------|
+| Frontend   | HTML, CSS, Bootstrap, JavaScript |
+| Backend    | PHP                           |
+| Database   | MySQL                         |
+| Server     | XAMPP (Apache + MySQL)        |
 
-5. Open your web browser and type `localhost/`, then navigate to the project path from `htdocs` in the address bar.
+---
+
+## ⚙️ Setup Instructions
+
+### ✅ Prerequisites
+
+- ✅ Install [XAMPP](https://www.apachefriends.org/)
+- ✅ Any modern web browser (Chrome, Firefox, etc.)
+
+---
+
+### 🧪 Running the Project Locally
+
+1. **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/your-username/ghadade-furniture.git
+   ```
+
+2. **Move Project Folder**
+
+   Copy the entire project folder into your XAMPP `htdocs` directory:
+
+   ```
+   C:/xampp/htdocs/ghadade-furniture
+   ```
+
+3. **Start Apache and MySQL**
+
+   Open **XAMPP Control Panel** and start:
+   - ✅ Apache
+   - ✅ MySQL
+
+4. **Setup the Database**
+
+   - Go to [http://localhost/phpmyadmin](http://localhost/phpmyadmin)
+   - Create a new database: `furniture_store`
+   - Execute the following SQL query to create the user table:
+
+     ```sql
+     CREATE TABLE user (
+         email VARCHAR(20) PRIMARY KEY,
+         name VARCHAR(20),
+         password VARCHAR(20),
+         phoneno INT,
+         address VARCHAR(50)
+     );
+     ```
+
+5. **Access the Web App**
+
+   - Open your browser
+   - Go to:  
+     ```
+     http://localhost/ghadade-furniture/
+     ```
+
+---
+
 
